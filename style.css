@@ -1,12 +1,49 @@
 h1,
 h2 {
   font-weight: bold;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 .card {
   transition: transform 0.3s ease-in-out;
+  margin-bottom: 30px;
+  border: black 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
 }
 
 .card:hover {
   transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 0 0 20px 20px;
+}
+
+.bg-primary {
+  background: linear-gradient(45deg, #8b0000, #ff4444) !important;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
 }
